@@ -15,6 +15,6 @@ test:
 production:
   adapter: postgresql
   database: hollaback
-  username: hollaback
+  username: hollabackagain
   password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
