@@ -79,5 +79,6 @@ Hollaback::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+  # this broke shit
+  # config.active_record.dump_schema_after_migration = false
 end
