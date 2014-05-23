@@ -9,10 +9,6 @@ group :development do
 	gem 'sqlite3'
 end
 
-set :rbenv_type, :user
-set :rbenv_ruby, '2.0.0-p451'
-
-
 group :proudction do
 	gem 'pg'
 	gem 'capistrano', '~> 3.1.0'
