@@ -6,8 +6,8 @@ development:
 test:
   adapter: postgresql
   database: test
-  username: <username>
-  password: <password>
+  username: postgresql
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
 
 production:
