@@ -13,6 +13,12 @@ set :deploy_to, '/home/deploy/hollaback'
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
+set :rails_env, "production"
+
+set :deploy_via, :copy
+
+# set :user, "deploy"
+
 # Default value for :scm is :git
 # set :scm, :git
 
