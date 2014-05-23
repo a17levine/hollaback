@@ -2,19 +2,19 @@ development:
   adapter: postgresql
   database: development
   username: postgres
-  password: ENV['POSTGRES_PASSWORD']
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
 
 test:
   adapter: postgresql
   database: test
   username: postgres
-  password: ENV['POSTGRES_PASSWORD']
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
 
 production:
   adapter: postgresql
   database: hollaback
   username: hollaback
-  password: ENV['POSTGRES_PASSWORD']
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
