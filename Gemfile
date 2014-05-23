@@ -16,6 +16,8 @@ group :proudction do
 	gem 'capistrano-rbenv', github: "capistrano/rbenv"
 end
 
+gem 'figaro'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
