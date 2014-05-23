@@ -12,7 +12,6 @@ end
 set :rbenv_type, :user
 set :rbenv_ruby, '2.0.0-p451'
 
-/home/deploy/hollaback/current/public;
 
 group :proudction do
 	gem 'pg'
