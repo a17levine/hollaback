@@ -6,13 +6,13 @@ development:
 test:
   adapter: postgresql
   database: test
-  username: <username>
-  password: <password>
+  username: postgresql
+  password: ENV['POSTGRES_PASSWORD']
   host: localhost
 
 production:
   adapter: postgresql
   database: hollaback
   username: postgresql
-  password: hi
+  password: ENV['POSTGRES_PASSWORD']
   host: localhosts
