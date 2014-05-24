@@ -1,16 +1,14 @@
 development:
   adapter: postgresql
-  database: development
-  username: postgres
-  password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
+  encoding: unicode
+  database: hollaback_development
 
 test:
   adapter: postgresql
-  database: test
-  username: postgres
-  password: <%= ENV['POSTGRES_PASSWORD'] %>
   host: localhost
+  encoding: unicode
+  database: hollaback_test
 
 production:
   adapter: postgresql
